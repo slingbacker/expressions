@@ -1,3 +1,5 @@
+
+
 // ASSUMING 4K COMPOSITION. Half wiggle amplitude values for 1080 Composition.
 // eg. wiggle(4,2.5) to wiggle(4,1.25)
 
