@@ -1,5 +1,6 @@
 // PAPERCRAFT EXPRESSIONS
 
+
 // ASSUMING 4K COMPOSITION. Half wiggle amplitude values for 1080 Composition.
 // eg. wiggle(1,4) to wiggle(1,2) 
 
@@ -24,9 +25,12 @@ wiggle(1,4)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-// BLINKING CONTROL - Precomp Eyes into Comp called 'EYES OPEN'
+// BLINKING CONTROL 
 
-// EYES OPEN - opacity control
+
+// EYES OPEN
+
+// Precomp Eyes into Comp called 'EYES OPEN'
 
 transform.opacity
 minOnTime = .25;  
@@ -51,8 +55,9 @@ result;
 
 
  
-// EYES CLOSED - Precomp Closed Eyes into Comp called 'EYES CLOSED'
-// Opacity control (turns off whenever EYES OPEN is on)
+// EYES CLOSED 
+
+// Precomp Closed Eyes into Comp called 'EYES CLOSED'
 
 t = thisComp.layer("EYES OPEN").transform.opacity;  
 linear(t,0,100,100,0)  
@@ -61,7 +66,9 @@ linear(t,0,100,100,0)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-// SMILE - Precomp Smile into Comp called 'SMILE'
+// SMILE 
+
+// Precomp Smile into Comp called 'SMILE'
 
 minOnTime = 2.75;  
 maxOnTime = 4;  
@@ -84,8 +91,9 @@ result = 0;
 result  
 
 
-// SIDE SMILE - Precomp Side Smile into Comp called 'SIDE SMILE'
-// Opacity control (turns off whenever SMILE is on)
+// SIDE SMILE
+
+// Precomp Side Smile into Comp called 'SIDE SMILE'
 
 t = thisComp.layer("SMILE").transform.opacity;  
 linear(t,0,100,100,0)  
