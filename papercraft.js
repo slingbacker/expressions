@@ -11,6 +11,7 @@ wiggle(4,2.5)
 wiggle(0.9,4) 
 
 
+
 // BLINKING CONTROL
 
 // EYES OPEN - opacity control
@@ -62,6 +63,7 @@ t = thisComp.layer("EYES OPEN").transform.opacity;
 linear(t,0,100,100,0)  
 
 
+
 // SMILE
 
 minOnTime = 2.75;  
@@ -101,6 +103,7 @@ result = 0;
 }  
 
 result  
+
 
 
 // SIDE SMILE  opacity control (turns off whenever SMILE is on)
