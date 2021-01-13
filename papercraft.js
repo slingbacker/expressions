@@ -1,4 +1,4 @@
-
+// PAPERCRAFT EXPRESSIONS
 
 // ASSUMING 4K COMPOSITION. Half wiggle amplitude values for 1080 Composition.
 // eg. wiggle(1,4) to wiggle(1,2) 
