@@ -112,3 +112,28 @@ t = thisComp.layer("Smile").transform.opacity;
 
 linear(t,0,100,100,0)  
 
+
+// OFFSETTING START FRAME
+
+// Custom posterizeTime(5)
+
+//
+// Use .valueAtTime(newT) on your desired property
+// and set your new frame Rate and your Offset value
+var newFramerate = 5; //set your new Framerate in frames per second here
+var frameOffset = 2; //set your offset in frame here
+
+ 
+
+var frameRate = 1/thisComp.frameDuration;
+var t = (time*frameRate);
+var newT = Math.floor((t-frameOffset)/(frameRate/newFramerate));
+newT = newT*(frameRate/newFramerate) + frameOffset;
+newT /= frameRate;
+
+ 
+
+transform.position.valueAtTime(newT);
+
+timeRemap.valueAtTime(newT);
+
