@@ -6,7 +6,7 @@
 posterizeTime(5); 
 value 
 
-// Position Wiggle - used on all objects which move (people, curtains, cats etc...)
+// Position Wiggle - used on individual elements of objects which move (glasses, mouth, arm, curtains, steam) (not to be used on whole people, cars)
 wiggle(4,2.5) 
 
 // Rotation Wiggle - mostly used for gentle head movement
