@@ -24,7 +24,7 @@ wiggle(1,4)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-// BLINKING CONTROL
+// BLINKING CONTROL - Precomp Eyes into Comp called 'EYES OPEN'
 
 // EYES OPEN - opacity control
 
@@ -51,7 +51,8 @@ result;
 
 
  
-// EYES CLOSED - opacity control (turns off whenever EYES OPEN is on)
+// EYES CLOSED - Precomp Closed Eyes into Comp called 'EYES CLOSED'
+// Opacity control (turns off whenever EYES OPEN is on)
 
 t = thisComp.layer("EYES OPEN").transform.opacity;  
 linear(t,0,100,100,0)  
@@ -60,7 +61,7 @@ linear(t,0,100,100,0)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-// SMILE
+// SMILE - Precomp Smile into Comp called 'SMILE'
 
 minOnTime = 2.75;  
 maxOnTime = 4;  
@@ -83,9 +84,10 @@ result = 0;
 result  
 
 
-// SIDE SMILE  opacity control (turns off whenever SMILE is on)
+// SIDE SMILE - Precomp Side Smile into Comp called 'SIDE SMILE'
+// Opacity control (turns off whenever SMILE is on)
 
-t = thisComp.layer("Smile").transform.opacity;  
+t = thisComp.layer("SMILE").transform.opacity;  
 linear(t,0,100,100,0)  
 
 
