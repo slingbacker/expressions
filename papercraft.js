@@ -1,7 +1,7 @@
 
 
 // ASSUMING 4K COMPOSITION. Half wiggle amplitude values for 1080 Composition.
-// eg. wiggle(4,2.5) to wiggle(4,1.25)
+// eg. wiggle(1,4) to wiggle(1,2) 
 
 // wiggle(freq,amp)
 // Frequency (freq) - How often do you want your value (number) to move per second.
@@ -18,7 +18,7 @@ value
 wiggle(4,2.5) 
 
 // Rotation Wiggle - mostly used for gentle head movement
-wiggle(0.9,4) 
+wiggle(1,4) 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
