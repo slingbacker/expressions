@@ -46,7 +46,6 @@ result;
 // EYES CLOSED - opacity control (turns off whenever EYES OPEN is on)
 
 t = thisComp.layer("EYES OPEN").transform.opacity;  
-
 linear(t,0,100,100,0)  
 
 
@@ -56,48 +55,29 @@ linear(t,0,100,100,0)
 // SMILE
 
 minOnTime = 2.75;  
-
 maxOnTime = 4;  
-
 minOffTime = 2.5;  
-
 maxOffTime = 3;  
-
 i = 0;  
-
 tEnd = 0;  
-
 seedRandom(index,true);  
-
 preRun = random(maxOnTime);  
-
 while (time + preRun >= tEnd){  
-
 i++;  
-
 if(i%2){  
-
 tEnd += random(minOnTime,maxOnTime);  
-
 result = 100;  
-
 }else{  
-
 tEnd += random(minOffTime,maxOffTime);  
-
 result = 0;  
-
 }  
-
 }  
-
 result  
 
 
 // SIDE SMILE  opacity control (turns off whenever SMILE is on)
 
 t = thisComp.layer("Smile").transform.opacity;  
-
 linear(t,0,100,100,0)  
 
 
@@ -107,7 +87,6 @@ linear(t,0,100,100,0)
 // OFFSETTING START FRAME
 
 // Custom posterizeTime(5)
-
 // Use .valueAtTime(newT) on your desired property
 // and set your new frame Rate and your Offset value
 var newFramerate = 5; //set your new Framerate in frames per second here
