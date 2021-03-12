@@ -3,9 +3,6 @@
 // PAPERCRAFT EXPRESSIONS
 
 
-// ASSUMING 4K COMPOSITION. Half wiggle amplitude values for 1080 Composition.
-// eg. wiggle(1,4) to wiggle(1,2) 
-
 // wiggle(freq,amp)
 // Frequency (freq) - How often do you want your value (number) to move per second.
 // Amplitude (amp) - How much your value is allowed to change above or below the starting value.
@@ -18,10 +15,10 @@ posterizeTime(5);
 value 
 
 // Position Wiggle - used on individual elements of objects which move (glasses, mouth, arm, curtains, steam) (not to be used on whole people, cars)
-wiggle(4,2.5) 
+wiggle(4,1.4) 
 
 // Rotation Wiggle - mostly used for gentle head movement
-wiggle(1,4) 
+wiggle(1,1.4) 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
