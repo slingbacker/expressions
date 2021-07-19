@@ -117,3 +117,5 @@ result
 t = thisComp.layer("SMILE").transform.opacity;  
 linear(t,0,100,100,0)  
 
+
+
